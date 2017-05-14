@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+            <item
+                android:id="@+id/nav_yushan_peak"
+                android:icon="@drawable/ic_label_black_24dp"
+                android:title="Yushan North Peak" />
+            <item
+                android:id="@+id/nav_fish_hook_bay"
+                android:icon="@drawable/ic_label_black_24dp"
+                android:title="Fish Hook Bay" />
+            <item
+                android:id="@+id/nav_grand_canyon"
+                android:icon="@drawable/ic_label_black_24dp"
+                android:title="The Grand Canyon" />
+            <item
+                android:id="@+id/nav_horse_shoe_bay"
+                android:icon="@drawable/ic_label_black_24dp"
+                android:title="HorseShoe Bay Cove" />
+            <item
+            android:id="@+id/nav_eiffel_tower"
+            android:icon="@drawable/ic_label_black_24dp"
+            android:title="Eiffel Tower" />
+            <!--<item-->
+                <!--android:id="@+id/nav_"-->
+                <!--android:icon="@drawable/ic_label_black_24dp"-->
+                <!--android:title="" />-->
+
+    <item android:title="Seven Wonders of the world">
+        <menu>
+    <group>
+        <item
+            android:id="@+id/nav_taj_mahal"
+            android:icon="@drawable/ic_label_black_24dp"
+            android:title="Taj Mahal" />
+        <item
+            android:id="@+id/nav_christ_the_redeemer"
+            android:icon="@drawable/ic_label_black_24dp"
+            android:title="Christ the Redeemer" />
+        <item
+            android:id="@+id/nav_machu_picchu"
+            android:icon="@drawable/ic_label_black_24dp"
+            android:title="Machu Picchu" />
+        <item
+            android:id="@+id/nav_chichen_itza"
+            android:icon="@drawable/ic_label_black_24dp"
+            android:title="Chichén Itzá"
+            android:enabled="false"/>
+        <item
+            android:id="@+id/nav_the_colosseum"
+            android:icon="@drawable/ic_label_black_24dp"
+            android:title="The Colosseum" />
+        <item
+            android:id="@+id/nav_petra"
+            android:icon="@drawable/ic_label_black_24dp"
+            android:title="Petra" />
+        <item
+            android:id="@+id/nav_great_wall"
+            android:icon="@drawable/ic_label_black_24dp"
+            android:enabled="false"
+            android:title="Great Wall of China" />
+    </group>
+        </menu>
+    </item>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Feedback" />
+
+            <item
+                android:id="@+id/nav_about"
+                android:title="About"
+                android:icon="@drawable/ic_label_black_24dp"
+                />
+        </menu>
+    </item>
+
+</menu>
